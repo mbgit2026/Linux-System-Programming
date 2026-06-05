@@ -1,0 +1,107 @@
+Table of contents
+
+# 1 Reading files
+	1.1 Opening files: open and close
+	1.2 Reading from file: read
+	1.3 Writing to file: write
+	1.4 The standard library functions: fopen, fclose and fcloseall
+	1.5 Reading one character at a time: fgetc and fputc
+	1.6 Reading one line at a time: fgets and fputs
+# 2 Opening files
+	2.1 The fdopen and fileno functions
+	2.2 The freopen function 
+	2.3 The open flags
+# 3 Writing files
+# 4 Setting file position
+	4.1 The lseek function
+	4.2 Getting and setting the poistion: fgetpos and fsetpos
+	4.3 The fseeko and ftello functions
+# 5 Appending to files
+# 6 Creating files
+	6.1 The open O_EXCL flag
+# 7 Truncating files
+# 8 Reading and writing at a given offset
+# 9 Duplicating a file descriptor
+	9.1 The dup2 function
+	9.2 The dup3 function
+	9.3 Setting the O_CLOEXEC flag
+	9.4 dup errors
+# 10 Synchronizing the data
+	10.1 The sync function
+	10.2 Synchronization errors
+# 11 File flags
+	11.1 Duplicating a file descriptor
+	11.2 File descritptor flags
+	11.3 File status flags
+	11.4 File descriptors and open file description
+# 12 Multiplexed I/O
+	12.1 The poll function
+	12.2 The ppoll function
+	12.3 The epoll interface
+# 13 Binary I/O
+# 14 Error handling
+	14.1 The errno macro
+	14.2 The strerror* functions
+	14.3 The end-of-file and error indicators
+	14.4 The err and warn functions
+	14.5 The glibc error reporting functions
+	14.6 The program_invocation_name variable
+# 15 Buffered I/O
+	15.1 Buffering types
+	15.2 The interface to stdio FILE structure
+	15.3 The fwide function
+# 16 Memory streams
+# 17 Formatted I/O
+	17.1 printf and scanf
+	17.2 Other printf* functions
+# 18 System calls and library functions
+# 19 Scatter-Gather I/O
+	19.1 The readv and writev functions
+	19.2 The preadv and pwritev functions
+# 20 Unreading
+# 21 Formatted I/O with variable number of arguments
+	21.1 vprintf
+	21.2 vscanf
+	21.3 sscanf
+# 22 Temporary files
+	22.1 The mkstemp* family functions
+	22.2 The tmpfile function
+	22.3 Temporary files with open
+	22.4 Temporary directories: mkdtemp
+# 23 Advices
+# 24 Asynchronous I/O
+	24.1 POSIX AIO
+	24.2 Multiple I/O requests in one call
+	24.3 The aio_init function of the real-time library
+	24.4 Linux AIO – io_uring
+	24.5 The liburing library
+	24.6 Copying a file with libring
+	24.7 The io_uring system calls
+# 25 File locking
+	25.1 Advisory record locking
+	25.2 Opening file description locks 
+	25.3 Locks on the system
+	25.4 The flock function
+	25.5 The lockf function
+# 26 Stream locking
+	26.1 Locking FILE for stdio			
+	26.2 Nonlocking stdio functions
+	26.3 Nonlocking functions for wide-characters
+# 27 Pipes and FIFO
+	27.1 The pipe function
+	27.2 The popen function
+	27.3 Two-way communication
+	27.4 FIFOs
+	27.6 Pipes tunable values
+	27.7 I/O on pipes and FIFOs
+	27.8 Pipes and formatted I/O
+	27.9. The splice and vmsplice functions
+	27.10 Duplicating pipe data
+# 28 fcntl commands
+	28.1 Managing signals
+	28.2 Leases
+	28.3 File and directory change notification: dnotify
+	28.4 Changing the capacity of a pipe
+	28.5 File Sealing
+	28.6 File read/write hints
+# 29 File allocation
