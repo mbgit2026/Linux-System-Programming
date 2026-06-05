@@ -3,7 +3,7 @@
 
 # A Complete Linux Programming Reference.
 
-All the books are available on Amazona and Google Play:
+All the books are available on Amazon and Google Play:
 
 Amazon:         https://a.co/d/01v9LXUb
 
