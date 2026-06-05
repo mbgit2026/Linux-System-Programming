@@ -5,6 +5,12 @@
 
 # The best series to learn Linux programming. 
 
+All the books are available on Amazona and Google Play:
+
+Amazon:         https://a.co/d/01v9LXUb
+
+Google Play:    https://play.google.com/store/books/details?id=bvzgEQAAQBAJ
+
 Together, these volumes provide one of the most comprehensive treatments of Linux system programming available, 
 covering the complete lifecycle of Linux applications and the operating system interfaces they rely upon. From 
 basic file operations to advanced concurrency, memory management, security, and communication mechanisms, the 
@@ -45,8 +51,4 @@ Volumes in the Series
 <img src="front_6.jpg" width="400">
 
 
-All the books are available on Amazona and Google Play:
 
-Amazon:         https://a.co/d/01v9LXUb
-
-Google Play:    https://play.google.com/store/books/details?id=bvzgEQAAQBAJ
