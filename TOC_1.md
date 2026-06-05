@@ -1,4 +1,4 @@
-# Table of contents
+# Table of contents - Mastering File I/O
 <img src="front_1.jpg" width="200">
 
 # 1 Reading files
