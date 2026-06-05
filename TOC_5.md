@@ -1,5 +1,5 @@
 # Table of contents - Mastering Processes and Threads
-<img src="front_5.jpg" widtth=200>
+<img src="front_5.jpg" width=200>
 
 # 1. Processes
 	1.1 Getting the process identifier: getpid and getppid
