@@ -1,21 +1,24 @@
-1. Introduction
-2. POSIX Message Queues
+# Table of Contents - Mastering IPC and Terminals
+<img src="front_6.jpg" width=200>
+
+# 1. Introduction
+# 2. POSIX Message Queues
 	2.1 Creating a message queue: mq_open, mq_close, mq_unlink
 	2.2 Sending and receiving messages: mq_send and mq_receive
 	2.3 Message queue attributes: mq_getattr and mq_setattr
 	2.4 Message queue notification: mq_notify
 	2.5 Notification via thread
 	2.6 Notification via signal
-3. POSIX Named Semaphores
+# 3. POSIX Named Semaphores
 	3.1 Creating and deleting semaphores: sem_open, sem_close, sem_unlink
 	3.2 Process-local mutual exclusion
 	3.3 Interprocess mutual exclusion
 	3.4 Two-way synchronization pattern
-4. POSIX Shared Memory
+# 4. POSIX Shared Memory
 	4.1 Overview
 	4.2 Producer-consumer pattern
 	4.3 Client-server pattern
-5. Sockets		
+# 5. Sockets		
 	5.1 Overview 
 	5.2 Creating sockets: socket and shutdown
 	5.3 Byte order conversion functions
@@ -30,7 +33,7 @@
 	5.12 Non-blocking sockets and asynchronous I/O
 	5.13 Out-of-band data: sockatmark
 	5.14 Sending and receiving multiple messages: sendmmsg and recvmmsg
-6. UNIX Domain Sockets
+# 6. UNIX Domain Sockets
 	6.1 Unnamed UNIX domain sockets: socketpair
 	6.2 Named UNIX domain sockets: sockaddr_un
 	6.3 Datagram sockets: SOCK_DGRAM
@@ -42,7 +45,7 @@
 	6.9 Passing file descriptors and credentials between unrelated processes
 	6.10 A secure file access service
 	6.11 Sequenced-packet sockets: SOCK_SEQPACKET
-7. Terminal I/O.
+# 7. Terminal I/O.
 	7.1 Identifying terminal file descriptors: isatty
 	7.2 Terminal properties: termios
 	7.3 Retrieving and changing terminal settings: tcgetattr and tcsetattr
@@ -53,7 +56,7 @@
 	7.8 Window terminal size
 	7.9 Command-line utilities
 	7.10 ncurses
-8. Pseudo terminals
+# 8. Pseudo terminals
 	8.1 Overview
 	8.2 UNIX 98 pseudoterminal
 	8.3 script and expect
@@ -61,23 +64,3 @@
 	8.4 Unlocking pseudoterminal: grantpt and unlockpt
 	8.5 Getting pseudoterminal name: ptsname
 	8.6 Pseudoterminal pair: openpty, forkpty and loginpty
-
-List of tables
-List of figures
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
