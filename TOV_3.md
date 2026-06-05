@@ -1,0 +1,64 @@
+# Table of contents - Mastering the Linux Runtime Environment
+<img src="front_3.jpg" width=200>
+
+# 1. Time functions
+	1.1 Getting the time: time, gettimeofday and settimeofday 
+	1.2 Setting time with clock_gettime and clock_settime 
+	1.3 Clocks on Linux 
+	1.4 Setting a new time: tm
+	1.5 Time conversion functions 
+	1.6 Formatting date and time: strftime and strptime 
+	1.7 Time conversion: getdate
+# 2. The environment
+	2.1 Working with environment variables: getenv and setenv
+	2.2 Environment during an execve
+# 3. Locale
+	3.1 Setting locale: setlocale
+	3.2 Working with locale: localeconv,  newlocale and uselocale
+	3.3 Duplicating a locale object: duplocale
+# 4. The User Database: /etc/passwd
+	4.1 User and group files
+	4.2 The /etc/passwd file
+	4.3 Iterating the user database : getpwent and setpwent
+	4.4 Working with records : fgetpwent and putpwent
+# 5. The Group Database: /etc/group
+	5.1 Reading the group database: getgrnam and getgrgid
+	5.2 Working with the database: getgrent and setgrent
+	5.3 Retrieving the group list: getgrouplist
+	5.4 Supplementary groups: getgroups, setgroups and initgroups
+	5.5 Real and effective group ID: getgid, getegid, setgid, setegid
+	5.6 Saved Set-User-Id and Set-Group-Id
+	5.7 Checking whether a process is in a group: group_member
+# 6. Users functions
+	6.1 Setting user ID: getuid, geteuid, setuid and seteuid
+	6.2 getresgid and getresuid
+# 7. The Password Database: /etc/shadow
+	7.1 Creating an encrypted passphrase: crypt
+	7.2 Generating a salt: crypt_gensalt
+	7.3 Hiding the input with BSD readpassphrase	
+# 8. Login
+	8.1 Working with the utmp file: getutent, getutid, setutent
+	8.2 The login: login and logout
+# 9. The host, network, protocol and service databases
+	9.1 The host database: /etc/hosts
+	9.2 The network database: /etc/networks
+	9.3 The protocol database: /etc/protocols
+	9.4 The service database: /etc/services
+# 10. System identification
+	10.1 Getting system information: uname
+	10.2 Getting and setting hostname: gethostname and sethostent
+# 11. Pluggable Authentication Modules
+	11.1 PAM Authentication: pam_authenticate 
+	11.2 PAM Session: pam_open_session and pam_close_session
+	11.3 Process environment and PAM environment: pam_getenv, pam_putenv 
+	11.4 PAM items: pam_get_item and pam_set_item 
+	11.5 Changing password: pam_chauthtok
+	11.6 PAM functions summary
+# 12. Insights 
+	12.1 The Process Execution Environment
+	12.2 The intmax_t and uintmax_t data types
+	12.3 Using initgroups to set up the supplementary groups
+	12.4 Command line tools for the groups
+	12.5 The Name Service Switch 
+	12.6 Command line tools for the users
+	12.7 The login process
