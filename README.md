@@ -3,8 +3,6 @@
 
 # A Complete Linux Programming Reference.
 
-# The best series to learn Linux programming. 
-
 All the books are available on Amazona and Google Play:
 
 Amazon:         https://a.co/d/01v9LXUb
@@ -33,22 +31,22 @@ Volumes in the Series
      Understand the runtime context in which Linux applications execute, including time management, locales, 
      environment variables, user and group databases, system identification, login records, networking databases, 
      and PAM authentication.
-<img src="front_3.jpg" width="400">
+<img src="front_3.jpg" width="200">
 
 # 4. Linux System Programming: Mastering Memory
      Discover how Linux manages executable files, process startup and termination, memory allocation, memory mapping, 
      memory protection, dynamic loading, core dumps, and advanced memory-management interfaces.
-<img src="front_4.jpg" width="400">
+<img src="front_4.jpg" width="200">
 
 # 5. Linux System Programming: Mastering Processes and Threads
      Master process creation, execution, scheduling, signals, timers, POSIX threads, synchronization primitives, 
      daemon development, logging, and secure process management.
-<img src="front_5.jpg" width="400">
+<img src="front_5.jpg" width="200">
 
 # 6. Linux System Programming: Mastering IPC and Terminals
      Learn how Linux applications communicate through message queues, semaphores, shared memory, sockets, 
      UNIX domain sockets, terminals, and pseudo-terminals.
-<img src="front_6.jpg" width="400">
+<img src="front_6.jpg" width="200">
 
 
 
