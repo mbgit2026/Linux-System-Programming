@@ -45,7 +45,7 @@
 	6.9 Passing file descriptors and credentials between unrelated processes
 	6.10 A secure file access service
 	6.11 Sequenced-packet sockets: SOCK_SEQPACKET
-# 7. Terminal I/O.
+# 7. Terminal I/O
 	7.1 Identifying terminal file descriptors: isatty
 	7.2 Terminal properties: termios
 	7.3 Retrieving and changing terminal settings: tcgetattr and tcsetattr
