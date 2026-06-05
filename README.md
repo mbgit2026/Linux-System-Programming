@@ -16,7 +16,7 @@ Volumes in the Series
 # 1. Linux System Programming: Mastering File I/O
      Learn how Linux applications interact with files through system calls, standard I/O libraries, file descriptors, 
      asynchronous I/O, and advanced file operations.
-     [Cover](front_1.jpg)
+<img src="front_1.jpg" width="500">
 
 # 2. Linux System Programming: Mastering the Filesystem
      Explore the Linux filesystem hierarchy, directories, device files, permissions, capabilities, quotas, mounts, 
