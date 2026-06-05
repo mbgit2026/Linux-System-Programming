@@ -1,4 +1,4 @@
-# Table of contents - MAstering the Filesystem
+# Table of contents - Mastering the Filesystem
 <img src="front_2.jpg" width=200>
 
 # 1. Files
